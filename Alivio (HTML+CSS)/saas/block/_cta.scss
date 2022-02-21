@@ -1,0 +1,40 @@
+.cta {
+    min-height: 895px;
+    position: relative;
+}
+
+.cta-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+}
+.cta-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cta-body {
+    max-width: 440px;
+    padding: 175px 0;
+}
+.cta-title {
+    font-family: "Georgia", serif;
+    font-size: 65px;
+    color: #01996D;
+    margin-bottom: 30px;
+}
+.cta-text {
+    margin-bottom: 55px;
+    line-height: 1.5em;
+    max-width: 400px;
+}
+
+.btn-big, a.btn-big {
+    height: 66px;
+    line-height: 33px;
+}
